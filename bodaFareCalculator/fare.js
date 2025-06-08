@@ -11,9 +11,22 @@ function calculateBodaFare(distanceInKm) {
     //add base fare to distance fare to acquire total fare
     const totalFare = baseFare + distanceFare;
 
-    //ask user for travel distance
+    //print on console
+    console.log(`Uko kwote? Io ni ${distanceInKm}km`);
+    console.log(`Ukikalia PikiPiki:Ksh ${baseFare}`);
+    console.log(`Mpaka uko: Ksh ${distanceFare}`);
+    console.log(`Total: Ksh ${totalFare}`);
+
+     //ask user for travel distance
     const userInput = prompt(`Unafika wapi mteja? Ingiza umbali wa safari yako kwa kilomita:`);
 
     //convert user input to a number
     const distanceInKm= Number(userInput);
+
+    //check if input is a valid number
+    if (isNaN(distanceInKm) || distanceInKm <= 0) {
+        console.log('Tafadhali ingiza umbali halali wa safari yako kwa kilomita.');
+    } else {
+        calculateBodaFare(distanceInKm);
+    }
 }
