@@ -1,5 +1,17 @@
 Week 1 Code Challenge
 
+Prerequisites
+
+1. Links to an external site.
+2. GitHub Repository: Create a new repository on your GitHub account (e.g., Code-Challenge-1).
+3. Project Structure: For each challenge below, create a dedicated folder within your main repository (e.g., chaiCalculator, bodaFareCalculator, mobileMoneyEstimator).
+4. JavaScript Files: Inside each challenge's folder, create a single JavaScript file to hold your solution for that specific challenge (e.g., chai.js, fare.js, fee.js).
+5. Solution Implementation: Use JavaScript to write your solutions.
+6. Version Control: Push your solutions to the GitHub repository as you complete them.
+7. Documentation: Ensure your repository has a well-written main README.md file (like this one!).
+8. Submission: Submit the link to your GitHub repository.
+
+
 Challenge 1: Chai Bora Ingredient Calculator ☕
 Links to an external site.
 This challenge involves creating a simple calculator to determine the basic ingredients needed to make a specific number of cups of Kenyan chai.
@@ -14,9 +26,9 @@ Your Task:
 
 Write a JavaScript function named calculateChaiIngredients that:
 
-1. Prompts the user to enter the number of chai cups they want to make (e.g., using prompt()). Remember to convert the input to a number.
+1. Prompts the user to enter the number of chai cups they want to make (e.g., using the prompt() function). Remember to convert the input to a nthe' number.
 2. Takes the numberOfCups (as a number) as an argument.
-3. Calculates the required amount for each ingredient (water, milk, tea leaves, sugar) based on the numberOfCups.
+3. Calculates the required amount for each ingredient (water, milk, tea leaves, and sugar) based on the number of cups.
 4. Prints the results to the console in a clear, readable format.
    
 Challenge 2: Boda Boda Ride Fare Estimator 🛵
@@ -32,7 +44,7 @@ Your Task:
 Write a JavaScript function named calculateBodaFare that:
 
 1. Prompts the user to enter the distance of their trip in kilometers. Convert this input to a number.
-2. Takes the distanceInKm (as a number) as an argument.
+2. Takes the distance in km (as a number) as an argument.
 3. Calculates the total estimated fare using the formula: totalFare = baseFare + (distanceInKm * chargePerKm)
 4. Prints the result to the console in a user-friendly format.
 
