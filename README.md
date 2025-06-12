@@ -68,4 +68,4 @@ Write a JavaScript function named estimateTransactionFee that:
 5. Calculates the total amount that will be debited (amount to send + transaction fee).
 6. Prints the results to the console.
 
-Happy coding!
+
