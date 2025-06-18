@@ -69,3 +69,6 @@ Write a JavaScript function named estimateTransactionFee that:
 6. Prints the results to the console.
 
 
+Author
+Neathan Kungu
+GitHub: @nnat3
