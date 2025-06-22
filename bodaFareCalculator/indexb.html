@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="fare.js"></script>
+</head>
+<style>
+    #fareCalculator {
+        display: flex;
+        background-color:cadetblue;
+        height: 400px;
+        width: 90%;
+        justify-content: space-around;
+    }
+    #btn {
+        background-color: burlywood;
+        margin-top: 15px;
+        padding: 10px;
+        display: flex;
+        height: 350px;
+        width: 200px;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    #output {
+        display:flex;
+        margin-top: 15px;
+        width: 700px;
+        height: 350px;
+        background-color:lemonchiffon
+    }
+</style>
+<body>
+    <h1>Boda Fare Calculator</h1>
+    <div id="fareCalculator">
+        <div id="btn">
+            <button id="calculateFare">Calculate Fare</button>
+        </div>
+        <div id="output">
+           <h2>User Input:</h2>
+           <input type=number id="distanceInput" placeholder="Enter distance in km"
+           style="height: 20px; margin-top: 20px;">
+        </div>
+    </div>
+    
+</body>
+</html>
